@@ -1,9 +1,53 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0
+}
+
+.header,
+.intro-section,
+.footer {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    padding: 20px 300px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 30px;
+}
+
+
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800px;
+}
+
+.hero-secondary,
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .card img {
     width: 200px;
     height: auto;
+}
+
+.footer {
+    height: 75px;
 }
